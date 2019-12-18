@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/sv_poiType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_poi_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingEnd="12dp"
+            android:paddingStart="@dimen/dp_12" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-3dp"
+        android:layout_toRightOf="@+id/sv_poiType"
+        android:src="@drawable/ic_turn_left" />
+
+</RelativeLayout>

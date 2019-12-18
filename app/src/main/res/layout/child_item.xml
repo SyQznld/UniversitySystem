@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_child"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_department_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:layout_marginLeft="@dimen/space_30dp"
+        android:drawableLeft="@drawable/ic_jigou"
+        android:drawablePadding="10dp"
+        android:padding="@dimen/space_10dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="测试数据"
+        android:textSize="14sp" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_department_navigation"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_dzjg_jianjie_department_bg"
+        android:text="导航"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btn_department_url"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_weight="1"
+        android:background="@drawable/shape_dzjg_url_department_bg"
+        android:text="网址"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+</LinearLayout>

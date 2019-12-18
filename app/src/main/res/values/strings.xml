@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">郑州师范三维校园app</string>
+
+
+    <string name="main_layers">校园</string>
+    <string name="main_jigou">机构</string>
+    <string name="main_flow">流程</string>
+    <string name="main_poi">服务</string>
+    <string name="main_quanjing">全景</string>
+    <string name="main_search">搜索</string>
+    <string name="quanjing_pop">是否采用全景模式进行漫游导航</string>
+    <string name="no_net"></string>
+
+
+    <string-array name="chooseXiaoquArr">
+        <item>东校区</item>
+        <item>西校区</item>
+    </string-array>
+
+    <string name="chooseXiaoqu">请选择去往校区</string>
+
+    <!--悬浮按钮菜单-->
+
+    <string name="flow_label">流程图</string>
+    <string name="location_label">定位</string>
+    <string name="reset_label">复位</string>
+    <string name="set_big_label">放大</string>
+    <string name="set_small_label">缩小</string>
+
+</resources>
